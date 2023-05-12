@@ -273,6 +273,5 @@ bash scripts/zeroshot_eval.sh 0 \
     ./pretrained_weights/QA-CLIP-base.pt
 ```
 # Acknowledgments
-<br><br>
 The project code is based on implementation of <b>[Chinese-CLIP](https://github.com/OFA-Sys/Chinese-CLIP)</b>, and we are very grateful for their outstanding open-source contributions.
 <br><br>
