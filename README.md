@@ -272,6 +272,7 @@ bash scripts/zeroshot_eval.sh 0 \
     ViT-B-16 RoBERTa-wwm-ext-base-chinese \
     ./pretrained_weights/QA-CLIP-base.pt
 ```
+<br><br>
 # Acknowledgments
 The project code is based on implementation of <b>[Chinese-CLIP](https://github.com/OFA-Sys/Chinese-CLIP)</b>, and we are very grateful for their outstanding open-source contributions.
 <br><br>
