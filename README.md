@@ -164,7 +164,7 @@ Install required packages:
 cd /yourpath/QA-CLIP-main
 pip install -r requirements.txt
 ```
-
+<br>
 ## Inference Code
 ```bash
 export PYTHONPATH=/yourpath/QA-CLIP-main
