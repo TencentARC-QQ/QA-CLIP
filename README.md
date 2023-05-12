@@ -147,7 +147,6 @@ We conducted zero-shot tests on [MUGE Retrieval](https://tianchi.aliyun.com/muge
         <td width="120%">QA-CLIP<sub>ViT-L/14</sub></td><td><b>55.8</b></td>
     </tr>
 </table>
-<br>
 
 <br><br>
 
@@ -198,7 +197,7 @@ with torch.no_grad():
 
 print("Label probs:", probs)
 ```
-<br><br>
+<br>
 
 ## Prediction and Evaluation
 
