@@ -1,17 +1,18 @@
 [**中文说明**](README_CN.md) | [**English**](README.md)
-# Introduction
+# 项目介绍
 <br><br>
-This project aims to provide a better Chinese CLIP model. The training data used in this project consists of publicly accessible image URLs and related Chinese text descriptions, totaling 400 million. After screening, we ultimately used 100 million data for training. 
-This project is produced by QQ-ARC Joint Lab, Tencent PCG.
+本项目旨在提供更好的中文CLIP模型。该项目使用的训练数据均为公开可访问的图像URL及相关中文文本描述，总量达到400M。经过筛选后，我们最终使用了100M的数据进行训练。
+本项目于QQ-ARC Joint Lab, Tencent PCG完成
 <br><br>
 
-# Models and Results
+# 模型及实验
 <span id="model_card"></span>
-## Model Card
-QA-CLIP currently has three different open-source models of different sizes, and their model information and download links are shown in the table below:
+## 模型规模 & 下载链接
+QA-CLIP目前开源3个不同规模，其模型信息和下载方式见下表：
+
 <table border="1" width="100%">
     <tr align="center">
-        <th>Model</th><th>Ckp</th><th>Params</th><th>Vision</th><th>Params of Vision</th><th>Text</th><th>Params of Text</th><th>Resolution</th>
+        <th>模型规模</th><th>下载链接</th><th>参数量</th><th>视觉侧骨架</th><th>视觉侧参数量</th><th>文本侧骨架</th><th>文本侧参数量</th><th>分辨率</th>
     </tr>
     <tr align="center">
         <td>QA-CLIP<sub>RN50</sub></td><td><a href="https://huggingface.co/TencentARC/QA-CLIP/resolve/main/QA-CLIP-RN50.pt">Download</a></td><td>77M</td><td>ResNet50</td><td>38M</td><td>RBT3</td><td>39M</td><td>224</td>
@@ -25,8 +26,10 @@ QA-CLIP currently has three different open-source models of different sizes, and
 </table>
 <br>
 
-## Results
-We conducted zero-shot tests on [MUGE Retrieval](https://tianchi.aliyun.com/muge), [Flickr30K-CN](https://github.com/li-xirong/cross-lingual-cap), and [COCO-CN](https://github.com/li-xirong/coco-cn) datasets for image-text retrieval tasks. For the image zero-shot classification task, we tested on the ImageNet dataset. The test results are shown in the table below:
+## 实验结果
+针对图文检索任务，我们在[MUGE Retrieval](https://tianchi.aliyun.com/muge)、[Flickr30K-CN](https://github.com/li-xirong/cross-lingual-cap)和[COCO-CN](https://github.com/li-xirong/coco-cn)上进行了zero-shot测试。
+针对图像零样本分类任务，我们在ImageNet数据集上进行了测试。测试结果见下表：
+
 
 **Flickr30K-CN Zero-shot Retrieval (Official Test Set)**:
 <table border="1" width="120%">
@@ -153,25 +156,25 @@ We conducted zero-shot tests on [MUGE Retrieval](https://tianchi.aliyun.com/muge
 <br><br>
 
 
-# Getting Started
-## Installation Requirements
-Environment configuration requirements:
+# 使用教程
+## 安装要求
+环境配置要求:
 
 * python >= 3.6.4
 * pytorch >= 1.8.0 (with torchvision >= 0.9.0)
 * CUDA Version >= 10.2
 
-Install required packages:
+安装本项目所需库
 ```bash
 cd /yourpath/QA-CLIP-main
 pip install -r requirements.txt
 ```
 
-## Inference Code
+## 推理代码
 ```bash
 export PYTHONPATH=/yourpath/QA-CLIP-main
 ```
-Inference code example：
+推理代码示例：
 ```python
 import torch 
 from PIL import Image
@@ -190,7 +193,7 @@ text = clip.tokenize(["杰尼龟", "妙蛙种子", "小火龙", "皮卡丘"]).to
 with torch.no_grad():
     image_features = model.encode_image(image)
     text_features = model.encode_text(text)
-    # Normalize the features. Please use the normalized features for downstream tasks.
+    # 对特征进行归一化，请使用归一化后的图文特征用于下游任务
     image_features /= image_features.norm(dim=-1, keepdim=True) 
     text_features /= text_features.norm(dim=-1, keepdim=True)    
 
@@ -201,23 +204,22 @@ print("Label probs:", probs)
 ```
 <br><br>
 
-## Prediction and Evaluation
+## 预测及评估
 
-### Download Image-text Retrieval Test Dataset
-In Project <b>[Chinese-CLIP](https://github.com/OFA-Sys/Chinese-CLIP)</b>, the test set has already been preprocessed. Here is the download link they provided:
+### 图文检索测试数据集下载
+<b>[Chinese-CLIP](https://github.com/OFA-Sys/Chinese-CLIP)</b>项目中已经预处理好测试集，这是他们提供的下载链接：
 
-MUGE dataset：[download link](https://clip-cn-beijing.oss-cn-beijing.aliyuncs.com/datasets/MUGE.zip)
+MUGE数据：[下载链接](https://clip-cn-beijing.oss-cn-beijing.aliyuncs.com/datasets/MUGE.zip)
 
-Flickr30K-CN dataset：[download link](https://clip-cn-beijing.oss-cn-beijing.aliyuncs.com/datasets/Flickr30k-CN.zip)
+Flickr30K-CN数据：[下载链接](https://clip-cn-beijing.oss-cn-beijing.aliyuncs.com/datasets/Flickr30k-CN.zip)
 
-Additionally, obtaining the [COCO-CN](https://github.com/li-xirong/coco-cn) dataset requires applying to the original author.
-
-### Download ImageNet Dataset
-Please download the raw data yourself，[Chinese Label](http://clip-cn-beijing.oss-cn-beijing.aliyuncs.com/datasets/ImageNet-1K/label_cn.txt) and [English Label](http://clip-cn-beijing.oss-cn-beijing.aliyuncs.com/datasets/ImageNet-1K/label.txt) are provided by Project <b>[Chinese-CLIP](https://github.com/OFA-Sys/Chinese-CLIP)</b>
-### Image-text Retrieval Evaluation
-The image-text retrieval evaluation code can be referred to as follows:
+另外[COCO-CN](https://github.com/li-xirong/coco-cn)数据的获取需要向原作者进行申请
+### ImageNet数据集下载
+原始数据请自行下载，[中文标签](http://clip-cn-beijing.oss-cn-beijing.aliyuncs.com/datasets/ImageNet-1K/label_cn.txt)和[英文标签](http://clip-cn-beijing.oss-cn-beijing.aliyuncs.com/datasets/ImageNet-1K/label.txt)同样由<b>[Chinese-CLIP](https://github.com/OFA-Sys/Chinese-CLIP)</b>项目提供
+### 图文检索评估
+图文检索评估代码可以参考如下：
 ```bash
-split=test # Designate the computation of features for the valid or test set
+split=test # 指定计算valid或test集特征
 resume=your_ckp_path
 DATAPATH=your_DATAPATH
 dataset_name=Flickr30k-CN
@@ -265,15 +267,15 @@ python eval/evaluation_tr.py \
 cat ${DATAPATH}/datasets/${dataset_name}/output2.json
 ```
 
-### ImageNet Zero-shot Classification
-The ImageNet zero-shot classification code can be referred to as follows
+### ImageNet零样本分类
+ImageNet零样本分类的代码参考如下
 ```bash
 bash scripts/zeroshot_eval.sh 0 \
     ${DATAPATH} imagenet \
     ViT-B-16 RoBERTa-wwm-ext-base-chinese \
     ./pretrained_weights/QA-CLIP-base.pt
 ```
-# Acknowledgments
+# 致谢
 <br><br>
-The project code is based on implementation of <b>[Chinese-CLIP](https://github.com/OFA-Sys/Chinese-CLIP)</b>, and we are very grateful for their outstanding open-source contributions.
+项目代码基于<b>[Chinese-CLIP](https://github.com/OFA-Sys/Chinese-CLIP)</b>实现，非常感谢他们优秀的开源工作。
 <br><br>
