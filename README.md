@@ -1,6 +1,5 @@
 [**中文说明**](README_CN.md) | [**English**](README.md)
 # Introduction
-<br><br>
 This project aims to provide a better Chinese CLIP model. The training data used in this project consists of publicly accessible image URLs and related Chinese text descriptions, totaling 400 million. After screening, we ultimately used 100 million data for training. 
 This project is produced by QQ-ARC Joint Lab, Tencent PCG.
 <br><br>
