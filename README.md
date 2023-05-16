@@ -276,7 +276,7 @@ bash scripts/zeroshot_eval.sh 0 \
 <br><br>
 
 # Huggingface Model and Online Demo
-We have open-sourced our model on the HuggingFace for easier access and utilization. Additionally, we have prepared a simple online demo for zero-shot classification, allowing everyone to experience it firsthand. We encourage you to give it a try!
+We have open-sourced [our model on the HuggingFace](https://huggingface.co/TencentARC/QA-CLIP) for easier access and utilization. Additionally, we have prepared a simple online demo for zero-shot classification, allowing everyone to experience it firsthand. We encourage you to give it a try!
 
 [:star:QA-CLIP-ViT-B-16:star:](https://huggingface.co/TencentARC/QA-CLIP-ViT-B-16)
 
