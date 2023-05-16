@@ -166,6 +166,7 @@ QA-CLIP目前开源3个不同规模，其模型信息和下载方式见下表：
 安装本项目所需库
 ```bash
 cd /yourpath/QA-CLIP-main
+pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
