@@ -278,7 +278,7 @@ bash scripts/zeroshot_eval.sh 0 \
 <br><br>
 
 # Huggingface模型及在线Demo
-我们在huggingface网站上也开源了我们的模型，可以更方便的使用。并且也准备了一个简单的零样本分类的在线Demo供大家体验，欢迎大家来多多尝试！
+我们在huggingface网站上也开源了[我们的模型](https://huggingface.co/TencentARC/QA-CLIP)，可以更方便的使用。并且也准备了一个简单的零样本分类的在线Demo供大家体验，欢迎大家来多多尝试！
 
 [:star:QA-CLIP-ViT-B-16:star:](https://huggingface.co/TencentARC/QA-CLIP-ViT-B-16)
 
