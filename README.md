@@ -54,7 +54,7 @@ We conducted zero-shot tests on [MUGE Retrieval](https://tianchi.aliyun.com/muge
         <td width="120%">AltClip<sub>ViT-L/14</sub></td><td><b>69.7</b></td><td>90.1</td><td>94.8</td><td>84.8</td><td>97.7</td><td>99.1</td>
     </tr>
 	<tr align="center">
-        <td width="120%">CN-CLIP<sub>ViT-L/14</sub></td><td>69.3</td><td><b>90.3</b></td><td><b>94.7</b></td><td><b>85.3</b></td><td><b>97.9</b></td><td><b>99.2</b></td>
+        <td width="120%">QA-CLIP<sub>ViT-L/14</sub></td><td>69.3</td><td><b>90.3</b></td><td><b>94.7</b></td><td><b>85.3</b></td><td><b>97.9</b></td><td><b>99.2</b></td>
     </tr>
 </table>
 <br>
