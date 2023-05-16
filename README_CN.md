@@ -42,22 +42,22 @@ QA-CLIP目前开源3个不同规模，其模型信息和下载方式见下表：
         <td width="120%">CN-CLIP<sub>RN50</sub></td><td>48.8</td><td>76.0</td><td>84.6</td><td>60.0</td><td>85.9</td><td>92.0</td>
     </tr>
 	<tr align="center">
-        <td width="120%">QA-CLIP<sub>RN50</sub></td><td><b>50.5</b></td><td><b>77.4</b></td><td><b>86.1</b></td><td><b>67.1</b></td><td><b>87.9</b></td><td><b>93.2</b></td>
+        <td width="120%">:star:QA-CLIP<sub>RN50</sub></td><td><b>50.5</b></td><td><b>77.4</b></td><td><b>86.1</b></td><td><b>67.1</b></td><td><b>87.9</b></td><td><b>93.2</b></td>
     </tr>
 	<tr align="center">
         <td width="120%">CN-CLIP<sub>ViT-B/16</sub></td><td>62.7</td><td>86.9</td><td>92.8</td><td>74.6</td><td>93.5</td><td>97.1</td>
     </tr>  
 	<tr align="center">
-        <td width="120%">QA-CLIP<sub>ViT-B/16</sub></td><td><b>63.8</b></td><td><b>88.0</b></td><td><b>93.2</b></td><td><b>78.4</b></td><td><b>96.1</b></td><td><b>98.5</b></td>
+        <td width="120%">:star:QA-CLIP<sub>ViT-B/16</sub></td><td><b>63.8</b></td><td><b>88.0</b></td><td><b>93.2</b></td><td><b>78.4</b></td><td><b>96.1</b></td><td><b>98.5</b></td>
     </tr> 
 	<tr align="center">
         <td width="120%">CN-CLIP<sub>ViT-L/14</sub></td><td>68.0</td><td>89.7</td><td>94.4</td><td>80.2</td><td>96.6</td><td>98.2</td>
     </tr> 
 	<tr align="center">
-        <td width="120%">AltClip<sub>ViT-L/14</sub></td><td><b>69.7</b></td><td>90.1</td><td>94.8</td><td>84.8</td><td>97.7</td><td>99.1</td>
+        <td width="120%">AltClip<sub>ViT-L/14</sub></td><td><b>69.7</b></td><td>90.1</td><td><b>94.8</b></td><td>84.8</td><td>97.7</td><td>99.1</td>
     </tr>
 	<tr align="center">
-        <td width="120%">CN-CLIP<sub>ViT-L/14</sub></td><td>69.3</td><td><b>90.3</b></td><td><b>94.7</b></td><td><b>85.3</b></td><td><b>97.9</b></td><td><b>99.2</b></td>
+        <td width="120%">:star:QA-CLIP<sub>ViT-L/14</sub></td><td>69.3</td><td><b>90.3</b></td><td>94.7</td><td><b>85.3</b></td><td><b>97.9</b></td><td><b>99.2</b></td>
     </tr>
 </table>
 <br>
@@ -74,13 +74,13 @@ QA-CLIP目前开源3个不同规模，其模型信息和下载方式见下表：
         <td width="120%">CN-CLIP<sub>RN50</sub></td><td>42.6</td><td>68.5</td><td>78.0</td><td>30.0</td><td>56.2</td><td>66.9</td>
     </tr>
 	<tr align="center">
-        <td width="120%">QA-CLIP<sub>RN50</sub></td><td><b>44.0</b></td><td><b>69.9</b></td><td><b>79.5</b></td><td><b>32.4</b></td><td><b>59.5</b></td><td><b>70.3</b></td>
+        <td width="120%">:star:QA-CLIP<sub>RN50</sub></td><td><b>44.0</b></td><td><b>69.9</b></td><td><b>79.5</b></td><td><b>32.4</b></td><td><b>59.5</b></td><td><b>70.3</b></td>
     </tr>
 	<tr align="center">
         <td width="120%">CN-CLIP<sub>ViT-B/16</sub></td><td>52.1</td><td>76.7</td><td>84.4</td><td>38.7</td><td>65.6</td><td>75.1</td>
     </tr>  
 	<tr align="center">
-        <td width="120%">QA-CLIP<sub>ViT-B/16</sub></td><td><b>53.2</b></td><td><b>77.7</b></td><td><b>85.1</b></td><td><b>40.7</b></td><td><b>68.2</b></td><td><b>77.2</b></td>
+        <td width="120%">:star:QA-CLIP<sub>ViT-B/16</sub></td><td><b>53.2</b></td><td><b>77.7</b></td><td><b>85.1</b></td><td><b>40.7</b></td><td><b>68.2</b></td><td><b>77.2</b></td>
     </tr> 
 	<tr align="center">
         <td width="120%">CN-CLIP<sub>ViT-L/14</sub></td><td>56.4</td><td>79.8</td><td>86.2</td><td>42.6</td><td>69.8</td><td>78.6</td>
@@ -89,7 +89,7 @@ QA-CLIP目前开源3个不同规模，其模型信息和下载方式见下表：
         <td width="120%">AltClip<sub>ViT-L/14</sub></td><td>29.6</td><td>49.9</td><td>58.8</td><td>21.4</td><td>42.0</td><td>51.9</td>
     </tr>
 	<tr align="center">
-        <td width="120%">QA-CLIP<sub>ViT-L/14</sub></td><td><b>57.4</b></td><td><b>81.0</b></td><td><b>87.7</b></td><td><b>45.5</b></td><td><b>73.0</b></td><td><b>81.4</b></td>
+        <td width="120%">:star:QA-CLIP<sub>ViT-L/14</sub></td><td><b>57.4</b></td><td><b>81.0</b></td><td><b>87.7</b></td><td><b>45.5</b></td><td><b>73.0</b></td><td><b>81.4</b></td>
     </tr>
 </table>
 <br>
@@ -106,13 +106,13 @@ QA-CLIP目前开源3个不同规模，其模型信息和下载方式见下表：
         <td width="120%">CN-CLIP<sub>RN50</sub></td><td>48.1</td><td>81.3</td><td>90.5</td><td>50.9</td><td>81.1</td><td>90.5</td>
     </tr>
 	<tr align="center">
-        <td width="120%">QA-CLIP<sub>RN50</sub></td><td><b>50.1</b></td><td><b>82.5</b></td><td><b>91.7</b></td><td><b>56.7</b></td><td><b>85.2</b></td><td><b>92.9</b></td>
+        <td width="120%">:star:QA-CLIP<sub>RN50</sub></td><td><b>50.1</b></td><td><b>82.5</b></td><td><b>91.7</b></td><td><b>56.7</b></td><td><b>85.2</b></td><td><b>92.9</b></td>
     </tr>
 	<tr align="center">
         <td width="120%">CN-CLIP<sub>ViT-B/16</sub></td><td>62.2</td><td>87.1</td><td>94.9</td><td>56.3</td><td>84.0</td><td>93.3</td>
     </tr>  
 	<tr align="center">
-        <td width="120%">QA-CLIP<sub>ViT-B/16</sub></td><td><b>62.9</b></td><td><b>87.7</b></td><td><b>94.7</b></td><td><b>61.5</b></td><td><b>87.6</b></td><td><b>94.8</b></td>
+        <td width="120%">:star:QA-CLIP<sub>ViT-B/16</sub></td><td><b>62.9</b></td><td><b>87.7</b></td><td><b>94.7</b></td><td><b>61.5</b></td><td><b>87.6</b></td><td><b>94.8</b></td>
     </tr> 
 	<tr align="center">
         <td width="120%">CN-CLIP<sub>ViT-L/14</sub></td><td>64.9</td><td>88.8</td><td>94.2</td><td>60.6</td><td>84.4</td><td>93.1</td>
@@ -121,7 +121,7 @@ QA-CLIP目前开源3个不同规模，其模型信息和下载方式见下表：
         <td width="120%">AltClip<sub>ViT-L/14</sub></td><td>63.5</td><td>87.6</td><td>93.5</td><td>62.6</td><td><b>88.5</b></td><td><b>95.9</b></td>
     </tr>
 	<tr align="center">
-        <td width="120%">QA-CLIP<sub>ViT-L/14</sub></td><td><b>65.7</b></td><td><b>90.2</b></td><td><b>95.0</b></td><td><b>64.5</b></td><td>88.3</td><td>95.1</td>
+        <td width="120%">:star:QA-CLIP<sub>ViT-L/14</sub></td><td><b>65.7</b></td><td><b>90.2</b></td><td><b>95.0</b></td><td><b>64.5</b></td><td>88.3</td><td>95.1</td>
     </tr>
 </table>
 <br>
@@ -135,19 +135,19 @@ QA-CLIP目前开源3个不同规模，其模型信息和下载方式见下表：
         <td width="120%">CN-CLIP<sub>RN50</sub></td><td>33.5</td>
     </tr>
 	<tr align="center">
-        <td width="120%">QA-CLIP<sub>RN50</sub></td><td><b>35.5</b></td>
+        <td width="120%">:star:QA-CLIP<sub>RN50</sub></td><td><b>35.5</b></td>
     </tr>
 	<tr align="center">
         <td width="120%">CN-CLIP<sub>ViT-B/16</sub></td><td>48.4</td>
     </tr>  
 	<tr align="center">
-        <td width="120%">QA-CLIP<sub>ViT-B/16</sub></td><td><b>49.7</b></td>
+        <td width="120%">:star:QA-CLIP<sub>ViT-B/16</sub></td><td><b>49.7</b></td>
     </tr> 
 	<tr align="center">
         <td width="120%">CN-CLIP<sub>ViT-L/14</sub></td><td>54.7</td>
     </tr>
 	<tr align="center">
-        <td width="120%">QA-CLIP<sub>ViT-L/14</sub></td><td><b>55.8</b></td>
+        <td width="120%">:star:QA-CLIP<sub>ViT-L/14</sub></td><td><b>55.8</b></td>
     </tr>
 </table>
 <br>
