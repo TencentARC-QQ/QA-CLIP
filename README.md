@@ -162,6 +162,7 @@ Environment configuration requirements:
 Install required packages:
 ```bash
 cd /yourpath/QA-CLIP-main
+pip install --upgrade pip
 pip install -r requirements.txt
 ```
 <br>
