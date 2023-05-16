@@ -274,14 +274,14 @@ bash scripts/zeroshot_eval.sh 0 \
 ```
 <br><br>
 
-# Huggingface模型及在线Demo
-我们在huggingface网站上也开源了我们的模型，可以更方便的使用。并且也准备了一个简单的零样本分类的在线Demo供大家体验，欢迎大家来多多尝试！
+# Huggingface Model and Online Demo
+We have open-sourced our model on the HuggingFace for easier access and utilization. Additionally, we have prepared a simple online demo for zero-shot classification, allowing everyone to experience it firsthand. We encourage you to give it a try!
 
 [:star:QA-CLIP-ViT-B-16:star:](https://huggingface.co/TencentARC/QA-CLIP-ViT-B-16)
 
 [:star:QA-CLIP-ViT-L-14:star:](https://huggingface.co/TencentARC/QA-CLIP-ViT-L-14)
 
-下面是一些展示的例子：
+Here are some examples for demonstration:
 <p align="center">
   <img src="./examples/tx_video.png" width="40%">
   <img src="./examples/chatgpt.png" width="40%">
