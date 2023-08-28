@@ -22,6 +22,9 @@ QA-CLIP目前开源3个不同规模，其模型信息和下载方式见下表：
     <tr align="center">
         <td>QA-CLIP<sub>ViT-L/14</sub></td><td><a href="https://huggingface.co/TencentARC/QA-CLIP/resolve/main/QA-CLIP-large.pt">Download</a></td><td>406M</td><td>ViT-L/14</td><td>304M</td><td>RoBERTa-wwm-Base</td><td>102M</td><td>224</td>
     </tr>
+    <tr align="center">
+        <td>QA-CLIP<sub>ViT-L/14@336px</sub></td><td><a href="https://huggingface.co/TencentARC/QA-CLIP/resolve/main/QA-CLIP-large-336.pt">Download</a></td><td>407M</td><td>ViT-L/14</td><td>304M</td><td>RoBERTa-wwm-Base</td><td>102M</td><td>336</td>
+    </tr>
 </table>
 <br>
 
@@ -59,6 +62,12 @@ QA-CLIP目前开源3个不同规模，其模型信息和下载方式见下表：
 	<tr align="center">
         <td width="120%">:star:QA-CLIP<sub>ViT-L/14</sub></td><td>69.3</td><td><b>90.3</b></td><td>94.7</td><td><b>85.3</b></td><td><b>97.9</b></td><td><b>99.2</b></td>
     </tr>
+	<tr align="center">
+        <td width="120%">CN-CLIP<sub>ViT-L/14@336px</sub></td><td>68.9</td><td>90.7</td><td>95.4</td><td>83.2</td><td>97.2</td><td>98.6</td>
+    </tr>  
+	<tr align="center">
+        <td width="120%">:star:QA-CLIP<sub>ViT-L/14@336px</sub></td><td><b>71.1</b></td><td><b>91.5</b></td><td><b>95.8</b></td><td><b>87.2</b></td><td><b>98.1</b></td><td><b>99.1</b></td>
+    </tr>
 </table>
 <br>
 
@@ -91,6 +100,12 @@ QA-CLIP目前开源3个不同规模，其模型信息和下载方式见下表：
 	<tr align="center">
         <td width="120%">:star:QA-CLIP<sub>ViT-L/14</sub></td><td><b>57.4</b></td><td><b>81.0</b></td><td><b>87.7</b></td><td><b>45.5</b></td><td><b>73.0</b></td><td><b>81.4</b></td>
     </tr>
+	<tr align="center">
+        <td width="120%">CN-CLIP<sub>ViT-L/14@336px</sub></td><td>59.0</td><td>81.5</td><td>87.7</td><td>46.2</td><td>73.7</td><td>82.1</td>
+    </tr>  
+	<tr align="center">
+        <td width="120%">:star:QA-CLIP<sub>ViT-L/14@336px</sub></td><td><b>59.6</b></td><td><b>81.9</b></td><td><b>88.1</b></td><td><b>47.5</b></td><td><b>74.7</b></td><td><b>83.1</b></td>
+    </tr> 
 </table>
 <br>
 
@@ -123,6 +138,12 @@ QA-CLIP目前开源3个不同规模，其模型信息和下载方式见下表：
 	<tr align="center">
         <td width="120%">:star:QA-CLIP<sub>ViT-L/14</sub></td><td><b>65.7</b></td><td><b>90.2</b></td><td><b>95.0</b></td><td><b>64.5</b></td><td>88.3</td><td>95.1</td>
     </tr>
+	<tr align="center">
+        <td width="120%">CN-CLIP<sub>ViT-L/14@336px</sub></td><td>64.7</td><td>89.0</td><td>94.5</td><td>63.6</td><td>87.5</td><td>94.6</td>
+    </tr>  
+	<tr align="center">
+        <td width="120%">:star:QA-CLIP<sub>ViT-L/14@336px</sub></td><td><b>65.9</b></td><td><b>90.2</b></td><td><b>94.9</b></td><td><b>66.2</b></td><td><b>88.3</b></td><td><b>95.7</b></td>
+    </tr> 
 </table>
 <br>
 
@@ -149,8 +170,13 @@ QA-CLIP目前开源3个不同规模，其模型信息和下载方式见下表：
 	<tr align="center">
         <td width="120%">:star:QA-CLIP<sub>ViT-L/14</sub></td><td><b>55.8</b></td>
     </tr>
+	<tr align="center">
+        <td width="120%">CN-CLIP<sub>ViT-L/14@336px</sub></td><td>56.7</td>
+    </tr>
+	<tr align="center">
+        <td width="120%">:star:QA-CLIP<sub>ViT-L/14@336px</sub></td><td><b>58.1</b></td>
+    </tr>
 </table>
-<br>
 
 <br><br>
 
